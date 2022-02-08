@@ -41,3 +41,4 @@ def save_batch(trans_imgs_dict, proc_folder, dst_dir):
         write_img(np.flip(img, 0), file_name, base_dir='', overwrite=False)
         
     return
+
